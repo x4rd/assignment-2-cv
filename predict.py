@@ -43,7 +43,7 @@ class Predictor:
         self.base.load_weights(ROOT / "weights" / "efficientnetv2-b0_notop.h5")
         self.base.trainable = False
         self.head = tf.keras.models.load_model(
-            ROOT / "artifacts" / "no_augmentation.keras", compile=False)
+            ROOT / "artifacts" / "cup_retrained.keras", compile=False)
         self.times: list[float] = []
 
     def predict_bytes(self, raw: bytes) -> dict:

@@ -9,11 +9,12 @@ This project continues Assignment 1 with a four-class household-object classifie
 - [Report (PDF, 7 pages)](output/pdf/Assignment2_Tsoy_Ruslan.pdf)
 - [Demo video (3 minutes 30 seconds)](output/Assignment2_Tsoy_Ruslan_demo.mp4) — annotated, silent walkthrough using model outputs
 - Local web app: `server.py`, `predict.py`, `web/index.html`
-- Experiment code and results: `train.py`, `artifacts/metrics.json`, `artifacts/split.json`, training curves, and model weights
+- Original experiment: `train.py`, `artifacts/metrics.json`, `artifacts/split.json`, training curves, and model weights
+- Cup update: `import_coco_cups.py`, `retrain_cup.py`, `dataset/coco_cup_sources.json`, and `artifacts/cup_retrain_metrics.json`
 
 ## Run the app
 
-On macOS, double-click `launch.command`. It starts the Python server and opens `http://127.0.0.1:8000`. Keep the Terminal window open. Do not open `web/index.html` directly, because the page needs the local model API.
+On macOS, double-click `launch.command`. On the first launch it creates `.venv` and installs the Python packages, then starts the server and opens `http://127.0.0.1:8000`. The first launch needs an internet connection and may take a few minutes. Keep the Terminal window open. Do not open `web/index.html` directly, because the page needs the local model API.
 
 For a fresh checkout with Python 3.13:
 
@@ -27,7 +28,7 @@ The app includes four sample images and runs without the training dataset. It ac
 
 ## Dataset and experiment
 
-The original self-collected dataset contains 847 real images: 200 bottles, 239 cups, 208 pens, and 200 spoons. The raw photos are excluded from this repository because they total about 3 GB and can contain iPhone EXIF location data. The included sample images are re-encoded without EXIF. No synthetic images were used.
+The original self-collected dataset contains 847 real images: 200 bottles, 239 cups, 208 pens, and 200 spoons. The raw photos are excluded from version control because they can contain iPhone EXIF location data. The included app sample images are re-encoded without EXIF. No synthetic images were used.
 
 To reproduce training, place the original files in `assgnment 1 cv/dataset/{bottle,cup,pen,spoon}/` inside this folder or its parent, preserving their names. Then run `python train.py` in the environment above. The saved split manifest fixes 593 training, 127 validation, and 127 test images. Both the saved A1 MobileNetV2 and the A2 variants were evaluated on the same fixed test set.
 
@@ -37,7 +38,27 @@ To reproduce training, place the original files in `assgnment 1 cv/dataset/{bott
 | A2 EfficientNetV2-B0 | **99.21%** | **99.24%** | **126** |
 | A2 with two augmented views | 97.64% | 97.53% | 124 |
 
-The augmentation ablation used horizontal flips, rotation, zoom and translation. The app loads the best-performing head, `artifacts/no_augmentation.keras`. The reported metrics, confusion matrices, curves, latency, Grad-CAM examples, and ethics discussion are in the report.
+The augmentation ablation used horizontal flips, rotation, zoom and translation. These results and the PDF report describe the **original 847-image experiment**.
+
+### 100-photo cup update
+
+The local `dataset/cup/` now includes 100 distinct photos from the [COCO 2017 validation set](https://cocodataset.org/#download). Each image has an annotated `cup` instance at least 60 pixels wide and high. The largest cup instance was cropped with a 25% margin and re-encoded without EXIF. COCO's `cup` category includes mugs and drinking glasses. The 100 images, their original URLs, bounding boxes, and individual Flickr license links are listed in `dataset/coco_cup_sources.json`. The selection excludes licenses that prohibit derivatives; several included photos have noncommercial licenses, so check each source entry before redistribution.
+
+The updated local dataset has **947 images**, including **339 cups**. All new photos were added only to training: 693 training, 127 validation, 127 test. The original validation and test partitions were preserved in `artifacts/cup_retrain_split.json`. `retrain_cup.py` trained three heads, selected the best by validation macro-F1, and saved the deployed head as `artifacts/cup_retrained.keras`. The frozen ImageNet EfficientNetV2-B0 extractor did not change.
+
+| Deployed head on original 127-photo test set | Accuracy | Macro-F1 | Correct |
+|---|---:|---:|---:|
+| Before cup update | 99.21% | 99.24% | 126 |
+| After cup update | 98.43% | 98.34% | 125 |
+
+The new head still classifies all 34 original cup test photos correctly; one additional bottle is classified as a spoon. The old test set does not measure performance on unseen COCO photos. Detailed metrics and candidate validation scores are in `artifacts/cup_retrain_metrics.json`. The local app loads the new head.
+
+To reproduce the cup update, download the official COCO `instances_val2017.json` annotations (SHA-256 `e8c7f7908f1d7278341fae127d0da654f102f11bd7b21d8aeefa635b8c810b6f`), then run:
+
+```bash
+./.venv/bin/python import_coco_cups.py /path/to/instances_val2017.json
+./.venv/bin/python retrain_cup.py
+```
 
 ## Limitations
 

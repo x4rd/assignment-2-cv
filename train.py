@@ -95,7 +95,8 @@ def extract(base, paths, augment=False, seed_offset=0):
     return result
 
 
-def train_head(x, y, xv, yv, name):
+def train_head(x, y, xv, yv, name, *, class_weight=None,
+               initial_weights=None, learning_rate=1e-3):
     tf.keras.utils.set_random_seed(SEED)
     head = tf.keras.Sequential([
         tf.keras.layers.Input((x.shape[1],)),
@@ -103,10 +104,12 @@ def train_head(x, y, xv, yv, name):
         tf.keras.layers.Dropout(0.25),
         tf.keras.layers.Dense(4, activation="softmax"),
     ], name=name)
-    head.compile(optimizer=tf.keras.optimizers.Adam(1e-3),
+    if initial_weights is not None:
+        head.set_weights(initial_weights)
+    head.compile(optimizer=tf.keras.optimizers.Adam(learning_rate),
                  loss="sparse_categorical_crossentropy", metrics=["accuracy"])
     history = head.fit(x, y, validation_data=(xv, yv), epochs=35,
-                       batch_size=32, verbose=0,
+                       batch_size=32, verbose=0, class_weight=class_weight,
                        callbacks=[tf.keras.callbacks.EarlyStopping(
                            monitor="val_loss", patience=7, restore_best_weights=True)])
     head.save(OUT / f"{name}.keras")

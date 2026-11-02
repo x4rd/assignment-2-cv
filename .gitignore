@@ -6,3 +6,7 @@ __pycache__/
 .mplconfig/
 assgnment 1 cv/
 artifacts/features.npz
+/dataset/bottle/
+/dataset/pen/
+/dataset/spoon/
+/dataset/cup/IMG_*

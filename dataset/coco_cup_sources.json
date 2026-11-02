@@ -1,0 +1,1514 @@
+{
+  "dataset": "COCO 2017 validation",
+  "class": "cup",
+  "annotation_sha256": "e8c7f7908f1d7278341fae127d0da654f102f11bd7b21d8aeefa635b8c810b6f",
+  "processing": "Largest cup bbox per image, 25% margin; RGB JPEG without metadata",
+  "images": [
+    {
+      "image_id": 2592,
+      "annotation_id": 678926,
+      "bbox_xywh": [
+        222.89,
+        34.54,
+        209.73,
+        213.02
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000002592.jpg",
+      "flickr_url": "http://farm4.staticflickr.com/3271/2864950455_3f5b5086da_z.jpg",
+      "license": "Attribution-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "file": "coco_val2017_000000002592.jpg"
+    },
+    {
+      "image_id": 3661,
+      "annotation_id": 1881632,
+      "bbox_xywh": [
+        567.52,
+        19.95,
+        72.48,
+        220.42
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000003661.jpg",
+      "flickr_url": "http://farm6.staticflickr.com/5176/5515966919_7a8ab56d94_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000003661.jpg"
+    },
+    {
+      "image_id": 9400,
+      "annotation_id": 1877700,
+      "bbox_xywh": [
+        250.65,
+        417.12,
+        63.87,
+        62.88
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000009400.jpg",
+      "flickr_url": "http://farm1.staticflickr.com/110/286317893_b6bce1c310_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000009400.jpg"
+    },
+    {
+      "image_id": 17714,
+      "annotation_id": 682310,
+      "bbox_xywh": [
+        199.45,
+        118.29,
+        109.45,
+        83.9
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000017714.jpg",
+      "flickr_url": "http://farm7.staticflickr.com/6133/5943387737_ffd52a7f27_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000017714.jpg"
+    },
+    {
+      "image_id": 17899,
+      "annotation_id": 672382,
+      "bbox_xywh": [
+        413.43,
+        489.59,
+        66.57,
+        117.61
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000017899.jpg",
+      "flickr_url": "http://farm8.staticflickr.com/7031/6746562893_cbf91d331c_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000017899.jpg"
+    },
+    {
+      "image_id": 25394,
+      "annotation_id": 1506985,
+      "bbox_xywh": [
+        244.49,
+        438.21,
+        130.88,
+        189.84
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000025394.jpg",
+      "flickr_url": "http://farm1.staticflickr.com/38/87248274_fe9dc3879b_z.jpg",
+      "license": "Attribution-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "file": "coco_val2017_000000025394.jpg"
+    },
+    {
+      "image_id": 25986,
+      "annotation_id": 680146,
+      "bbox_xywh": [
+        370.13,
+        203.05,
+        78.54,
+        116.91
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000025986.jpg",
+      "flickr_url": "http://farm8.staticflickr.com/7318/9563604417_08503a1e8c_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000025986.jpg"
+    },
+    {
+      "image_id": 35682,
+      "annotation_id": 671606,
+      "bbox_xywh": [
+        64.96,
+        374.27,
+        126.59,
+        122.27
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000035682.jpg",
+      "flickr_url": "http://farm5.staticflickr.com/4062/4666441455_b9bac3570c_z.jpg",
+      "license": "Attribution License",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "file": "coco_val2017_000000035682.jpg"
+    },
+    {
+      "image_id": 54605,
+      "annotation_id": 1506712,
+      "bbox_xywh": [
+        85.27,
+        72.89,
+        174.44,
+        378.55
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000054605.jpg",
+      "flickr_url": "http://farm9.staticflickr.com/8396/8645114496_3c5bd1615f_z.jpg",
+      "license": "Attribution License",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "file": "coco_val2017_000000054605.jpg"
+    },
+    {
+      "image_id": 66771,
+      "annotation_id": 669559,
+      "bbox_xywh": [
+        449.04,
+        391.15,
+        110.52,
+        88.66
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000066771.jpg",
+      "flickr_url": "http://farm8.staticflickr.com/7326/9757709634_5b1dcf5699_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000066771.jpg"
+    },
+    {
+      "image_id": 70048,
+      "annotation_id": 1879073,
+      "bbox_xywh": [
+        36.72,
+        202.9,
+        290.71,
+        229.12
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000070048.jpg",
+      "flickr_url": "http://farm7.staticflickr.com/6063/6125228801_3603990d04_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000070048.jpg"
+    },
+    {
+      "image_id": 74733,
+      "annotation_id": 677789,
+      "bbox_xywh": [
+        281.3,
+        395.12,
+        164.66,
+        204.46
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000074733.jpg",
+      "flickr_url": "http://farm6.staticflickr.com/5461/9330037796_1700b955f3_z.jpg",
+      "license": "Attribution License",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "file": "coco_val2017_000000074733.jpg"
+    },
+    {
+      "image_id": 78426,
+      "annotation_id": 2099016,
+      "bbox_xywh": [
+        267.68,
+        76.08,
+        88.72,
+        89.86
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000078426.jpg",
+      "flickr_url": "http://farm3.staticflickr.com/2309/2390094858_f0e56415e9_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000078426.jpg",
+      "crop_xyxy": [
+        245,
+        54,
+        379,
+        188
+      ]
+    },
+    {
+      "image_id": 91779,
+      "annotation_id": 1878931,
+      "bbox_xywh": [
+        406.44,
+        1.25,
+        93.51,
+        97.24
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000091779.jpg",
+      "flickr_url": "http://farm5.staticflickr.com/4063/4720316284_2b565f20a1_z.jpg",
+      "license": "Attribution-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "file": "coco_val2017_000000091779.jpg"
+    },
+    {
+      "image_id": 92053,
+      "annotation_id": 675153,
+      "bbox_xywh": [
+        309.58,
+        0.0,
+        82.14,
+        180.19
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000092053.jpg",
+      "flickr_url": "http://farm6.staticflickr.com/5244/5375419008_044fb14543_z.jpg",
+      "license": "Attribution-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "file": "coco_val2017_000000092053.jpg"
+    },
+    {
+      "image_id": 92660,
+      "annotation_id": 2101064,
+      "bbox_xywh": [
+        471.48,
+        16.12,
+        76.73,
+        66.72
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000092660.jpg",
+      "flickr_url": "http://farm6.staticflickr.com/5021/5625580778_33e6ea680e_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000092660.jpg"
+    },
+    {
+      "image_id": 95786,
+      "annotation_id": 676406,
+      "bbox_xywh": [
+        184.86,
+        0.0,
+        262.56,
+        198.26
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000095786.jpg",
+      "flickr_url": "http://farm4.staticflickr.com/3274/2700096780_3463231d72_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000095786.jpg"
+    },
+    {
+      "image_id": 108253,
+      "annotation_id": 668538,
+      "bbox_xywh": [
+        0.9,
+        0.36,
+        81.95,
+        117.13
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000108253.jpg",
+      "flickr_url": "http://farm2.staticflickr.com/1297/4698654120_3fe5e870af_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000108253.jpg"
+    },
+    {
+      "image_id": 113720,
+      "annotation_id": 674503,
+      "bbox_xywh": [
+        194.08,
+        201.94,
+        63.63,
+        122.81
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000113720.jpg",
+      "flickr_url": "http://farm6.staticflickr.com/5050/5229783977_9c8cc82bc4_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000113720.jpg"
+    },
+    {
+      "image_id": 116206,
+      "annotation_id": 1503491,
+      "bbox_xywh": [
+        140.6,
+        0.83,
+        176.89,
+        117.57
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000116206.jpg",
+      "flickr_url": "http://farm2.staticflickr.com/1179/5148981493_f4f21562db_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000116206.jpg"
+    },
+    {
+      "image_id": 117425,
+      "annotation_id": 1879086,
+      "bbox_xywh": [
+        0.0,
+        191.38,
+        80.77,
+        131.24
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000117425.jpg",
+      "flickr_url": "http://farm5.staticflickr.com/4037/4395733509_2c1aa888b2_z.jpg",
+      "license": "Attribution-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "file": "coco_val2017_000000117425.jpg"
+    },
+    {
+      "image_id": 120853,
+      "annotation_id": 670414,
+      "bbox_xywh": [
+        209.2,
+        0.0,
+        117.08,
+        147.4
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000120853.jpg",
+      "flickr_url": "http://farm3.staticflickr.com/2504/3877426843_d19b2f772c_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000120853.jpg"
+    },
+    {
+      "image_id": 156643,
+      "annotation_id": 675840,
+      "bbox_xywh": [
+        484.99,
+        311.47,
+        74.01,
+        110.3
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000156643.jpg",
+      "flickr_url": "http://farm9.staticflickr.com/8005/7534710698_69f4077419_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000156643.jpg"
+    },
+    {
+      "image_id": 157418,
+      "annotation_id": 673690,
+      "bbox_xywh": [
+        151.29,
+        177.71,
+        68.25,
+        80.51
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000157418.jpg",
+      "flickr_url": "http://farm4.staticflickr.com/3227/2986581771_0c4664923f_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000157418.jpg"
+    },
+    {
+      "image_id": 157601,
+      "annotation_id": 670357,
+      "bbox_xywh": [
+        192.54,
+        305.31,
+        204.92,
+        279.18
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000157601.jpg",
+      "flickr_url": "http://farm9.staticflickr.com/8478/8239498722_1b6cb129fd_z.jpg",
+      "license": "Attribution License",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "file": "coco_val2017_000000157601.jpg"
+    },
+    {
+      "image_id": 166277,
+      "annotation_id": 1506565,
+      "bbox_xywh": [
+        165.39,
+        307.34,
+        166.83,
+        241.61
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000166277.jpg",
+      "flickr_url": "http://farm1.staticflickr.com/247/522239585_3ad698c8a7_z.jpg",
+      "license": "Attribution License",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "file": "coco_val2017_000000166277.jpg"
+    },
+    {
+      "image_id": 166426,
+      "annotation_id": 1880775,
+      "bbox_xywh": [
+        316.95,
+        167.61,
+        85.96,
+        110.94
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000166426.jpg",
+      "flickr_url": "http://farm2.staticflickr.com/1029/1403819420_6056ad3de6_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000166426.jpg"
+    },
+    {
+      "image_id": 167572,
+      "annotation_id": 2101315,
+      "bbox_xywh": [
+        152.25,
+        357.49,
+        118.05,
+        67.51
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000167572.jpg",
+      "flickr_url": "http://farm6.staticflickr.com/5181/5640302114_8a36987a52_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000167572.jpg"
+    },
+    {
+      "image_id": 172571,
+      "annotation_id": 673334,
+      "bbox_xywh": [
+        177.25,
+        1.22,
+        88.62,
+        130.9
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000172571.jpg",
+      "flickr_url": "http://farm6.staticflickr.com/5101/5593927388_ef06e5c821_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000172571.jpg"
+    },
+    {
+      "image_id": 177213,
+      "annotation_id": 674990,
+      "bbox_xywh": [
+        563.45,
+        111.08,
+        76.55,
+        151.33
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000177213.jpg",
+      "flickr_url": "http://farm6.staticflickr.com/5043/5359270253_832caea653_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000177213.jpg"
+    },
+    {
+      "image_id": 178469,
+      "annotation_id": 1881588,
+      "bbox_xywh": [
+        460.94,
+        162.82,
+        82.0,
+        92.54
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000178469.jpg",
+      "flickr_url": "http://farm6.staticflickr.com/5137/5576437926_87f9182960_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000178469.jpg"
+    },
+    {
+      "image_id": 182417,
+      "annotation_id": 1883482,
+      "bbox_xywh": [
+        517.4,
+        0.87,
+        122.18,
+        179.53
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000182417.jpg",
+      "flickr_url": "http://farm3.staticflickr.com/2151/2100467664_2703dd9ff2_z.jpg",
+      "license": "Attribution License",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "file": "coco_val2017_000000182417.jpg"
+    },
+    {
+      "image_id": 182611,
+      "annotation_id": 2100899,
+      "bbox_xywh": [
+        320.83,
+        556.88,
+        98.08,
+        73.15
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000182611.jpg",
+      "flickr_url": "http://farm3.staticflickr.com/2484/3827353265_c602667a26_z.jpg",
+      "license": "Attribution-NonCommercial License",
+      "license_url": "https://creativecommons.org/licenses/by-nc/2.0/",
+      "file": "coco_val2017_000000182611.jpg"
+    },
+    {
+      "image_id": 183965,
+      "annotation_id": 670915,
+      "bbox_xywh": [
+        133.63,
+        89.05,
+        168.73,
+        151.25
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000183965.jpg",
+      "flickr_url": "http://farm6.staticflickr.com/5449/8929618982_543407d7b3_z.jpg",
+      "license": "Attribution-NonCommercial License",
+      "license_url": "https://creativecommons.org/licenses/by-nc/2.0/",
+      "file": "coco_val2017_000000183965.jpg"
+    },
+    {
+      "image_id": 184384,
+      "annotation_id": 674360,
+      "bbox_xywh": [
+        3.26,
+        3.26,
+        130.31,
+        314.93
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000184384.jpg",
+      "flickr_url": "http://farm3.staticflickr.com/2773/4104976058_0762616336_z.jpg",
+      "license": "Attribution-NonCommercial License",
+      "license_url": "https://creativecommons.org/licenses/by-nc/2.0/",
+      "file": "coco_val2017_000000184384.jpg"
+    },
+    {
+      "image_id": 192904,
+      "annotation_id": 682842,
+      "bbox_xywh": [
+        297.81,
+        227.6,
+        118.56,
+        92.12
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000192904.jpg",
+      "flickr_url": "http://farm8.staticflickr.com/7220/7406078162_7f14d50d38_z.jpg",
+      "license": "Attribution-NonCommercial License",
+      "license_url": "https://creativecommons.org/licenses/by-nc/2.0/",
+      "file": "coco_val2017_000000192904.jpg"
+    },
+    {
+      "image_id": 194724,
+      "annotation_id": 671514,
+      "bbox_xywh": [
+        514.77,
+        133.02,
+        94.48,
+        129.26
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000194724.jpg",
+      "flickr_url": "http://farm7.staticflickr.com/6155/6165978029_81ac06fbe3_z.jpg",
+      "license": "Attribution License",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "file": "coco_val2017_000000194724.jpg"
+    },
+    {
+      "image_id": 194940,
+      "annotation_id": 1504900,
+      "bbox_xywh": [
+        1.69,
+        0.21,
+        207.3,
+        169.38
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000194940.jpg",
+      "flickr_url": "http://farm3.staticflickr.com/2090/2142758257_707f956d3d_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000194940.jpg"
+    },
+    {
+      "image_id": 199771,
+      "annotation_id": 683084,
+      "bbox_xywh": [
+        285.23,
+        291.98,
+        85.58,
+        128.36
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000199771.jpg",
+      "flickr_url": "http://farm6.staticflickr.com/5035/7115744429_7d4deeb996_z.jpg",
+      "license": "Attribution License",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "file": "coco_val2017_000000199771.jpg"
+    },
+    {
+      "image_id": 201426,
+      "annotation_id": 677913,
+      "bbox_xywh": [
+        49.44,
+        303.89,
+        119.75,
+        154.91
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000201426.jpg",
+      "flickr_url": "http://farm4.staticflickr.com/3615/3393021340_c4ec0a46a6_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000201426.jpg"
+    },
+    {
+      "image_id": 203629,
+      "annotation_id": 672853,
+      "bbox_xywh": [
+        483.61,
+        357.91,
+        70.05,
+        60.45
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000203629.jpg",
+      "flickr_url": "http://farm4.staticflickr.com/3305/3501087861_a9293dbe96_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000203629.jpg"
+    },
+    {
+      "image_id": 209530,
+      "annotation_id": 1509779,
+      "bbox_xywh": [
+        372.51,
+        342.97,
+        73.7,
+        85.03
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000209530.jpg",
+      "flickr_url": "http://farm5.staticflickr.com/4057/4446635127_f9fa313e1d_z.jpg",
+      "license": "Attribution-NonCommercial License",
+      "license_url": "https://creativecommons.org/licenses/by-nc/2.0/",
+      "file": "coco_val2017_000000209530.jpg"
+    },
+    {
+      "image_id": 215778,
+      "annotation_id": 673405,
+      "bbox_xywh": [
+        473.99,
+        139.04,
+        67.38,
+        60.65
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000215778.jpg",
+      "flickr_url": "http://farm3.staticflickr.com/2550/3728951244_f7df6b91ba_z.jpg",
+      "license": "Attribution-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "file": "coco_val2017_000000215778.jpg"
+    },
+    {
+      "image_id": 218439,
+      "annotation_id": 672001,
+      "bbox_xywh": [
+        372.12,
+        438.0,
+        70.18,
+        106.31
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000218439.jpg",
+      "flickr_url": "http://farm4.staticflickr.com/3031/2759863463_c0315a2405_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000218439.jpg"
+    },
+    {
+      "image_id": 226147,
+      "annotation_id": 679197,
+      "bbox_xywh": [
+        90.65,
+        371.26,
+        83.49,
+        111.31
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000226147.jpg",
+      "flickr_url": "http://farm5.staticflickr.com/4047/4650252315_a203496559_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000226147.jpg"
+    },
+    {
+      "image_id": 226171,
+      "annotation_id": 670469,
+      "bbox_xywh": [
+        52.86,
+        285.26,
+        95.41,
+        112.45
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000226171.jpg",
+      "flickr_url": "http://farm3.staticflickr.com/2023/2326077489_1bd4702f8b_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000226171.jpg"
+    },
+    {
+      "image_id": 231527,
+      "annotation_id": 674028,
+      "bbox_xywh": [
+        69.99,
+        158.56,
+        136.33,
+        179.88
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000231527.jpg",
+      "flickr_url": "http://farm9.staticflickr.com/8543/8675226539_c4361c46cb_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000231527.jpg"
+    },
+    {
+      "image_id": 231822,
+      "annotation_id": 674824,
+      "bbox_xywh": [
+        88.22,
+        23.92,
+        74.98,
+        130.47
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000231822.jpg",
+      "flickr_url": "http://farm4.staticflickr.com/3095/2303311990_650312b750_z.jpg",
+      "license": "Attribution-NonCommercial License",
+      "license_url": "https://creativecommons.org/licenses/by-nc/2.0/",
+      "file": "coco_val2017_000000231822.jpg"
+    },
+    {
+      "image_id": 239627,
+      "annotation_id": 674213,
+      "bbox_xywh": [
+        358.5,
+        325.39,
+        108.46,
+        67.36
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000239627.jpg",
+      "flickr_url": "http://farm2.staticflickr.com/1414/1295457386_450c53f4f2_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000239627.jpg"
+    },
+    {
+      "image_id": 241319,
+      "annotation_id": 2183876,
+      "bbox_xywh": [
+        511.01,
+        214.44,
+        77.2,
+        92.78
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000241319.jpg",
+      "flickr_url": "http://farm5.staticflickr.com/4110/5030334212_7d75b72d07_z.jpg",
+      "license": "Attribution-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "file": "coco_val2017_000000241319.jpg"
+    },
+    {
+      "image_id": 242060,
+      "annotation_id": 673282,
+      "bbox_xywh": [
+        204.79,
+        47.15,
+        79.87,
+        142.95
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000242060.jpg",
+      "flickr_url": "http://farm8.staticflickr.com/7435/10145505276_e16b49da9e_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000242060.jpg"
+    },
+    {
+      "image_id": 253452,
+      "annotation_id": 672258,
+      "bbox_xywh": [
+        444.19,
+        150.3,
+        195.81,
+        212.52
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000253452.jpg",
+      "flickr_url": "http://farm6.staticflickr.com/5114/7425303236_7007745f5b_z.jpg",
+      "license": "Attribution-NonCommercial License",
+      "license_url": "https://creativecommons.org/licenses/by-nc/2.0/",
+      "file": "coco_val2017_000000253452.jpg"
+    },
+    {
+      "image_id": 255824,
+      "annotation_id": 672192,
+      "bbox_xywh": [
+        243.31,
+        1.0,
+        321.89,
+        189.48
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000255824.jpg",
+      "flickr_url": "http://farm9.staticflickr.com/8442/7790991342_22771b4ff8_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000255824.jpg"
+    },
+    {
+      "image_id": 256518,
+      "annotation_id": 674199,
+      "bbox_xywh": [
+        430.85,
+        46.4,
+        126.46,
+        166.96
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000256518.jpg",
+      "flickr_url": "http://farm4.staticflickr.com/3240/2947222492_5d464f4643_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000256518.jpg"
+    },
+    {
+      "image_id": 279730,
+      "annotation_id": 1512101,
+      "bbox_xywh": [
+        46.22,
+        166.97,
+        131.16,
+        166.03
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000279730.jpg",
+      "flickr_url": "http://farm5.staticflickr.com/4049/4300973580_72fde05d5f_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000279730.jpg"
+    },
+    {
+      "image_id": 283113,
+      "annotation_id": 1501715,
+      "bbox_xywh": [
+        207.46,
+        0.0,
+        157.42,
+        106.36
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000283113.jpg",
+      "flickr_url": "http://farm5.staticflickr.com/4115/4769619430_60e7553fe1_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000283113.jpg"
+    },
+    {
+      "image_id": 283412,
+      "annotation_id": 1507981,
+      "bbox_xywh": [
+        0.0,
+        283.84,
+        133.7,
+        143.16
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000283412.jpg",
+      "flickr_url": "http://farm6.staticflickr.com/5215/5499994653_748a7cbcbd_z.jpg",
+      "license": "Attribution License",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "file": "coco_val2017_000000283412.jpg"
+    },
+    {
+      "image_id": 284764,
+      "annotation_id": 1879590,
+      "bbox_xywh": [
+        462.23,
+        238.22,
+        68.5,
+        89.7
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000284764.jpg",
+      "flickr_url": "http://farm8.staticflickr.com/7332/9759747051_a14de15d61_z.jpg",
+      "license": "Attribution-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "file": "coco_val2017_000000284764.jpg"
+    },
+    {
+      "image_id": 287347,
+      "annotation_id": 669093,
+      "bbox_xywh": [
+        177.94,
+        489.04,
+        97.58,
+        149.24
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000287347.jpg",
+      "flickr_url": "http://farm6.staticflickr.com/5089/5250579638_55e8ea39b1_z.jpg",
+      "license": "Attribution License",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "file": "coco_val2017_000000287347.jpg"
+    },
+    {
+      "image_id": 292024,
+      "annotation_id": 2215287,
+      "bbox_xywh": [
+        535.82,
+        470.39,
+        76.18,
+        141.61
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000292024.jpg",
+      "flickr_url": "http://farm9.staticflickr.com/8059/8287537361_70457bd6d0_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000292024.jpg"
+    },
+    {
+      "image_id": 293858,
+      "annotation_id": 673671,
+      "bbox_xywh": [
+        323.07,
+        80.9,
+        80.12,
+        126.64
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000293858.jpg",
+      "flickr_url": "http://farm3.staticflickr.com/2421/3969350296_2a59437bc3_z.jpg",
+      "license": "Attribution-NonCommercial License",
+      "license_url": "https://creativecommons.org/licenses/by-nc/2.0/",
+      "file": "coco_val2017_000000293858.jpg"
+    },
+    {
+      "image_id": 297084,
+      "annotation_id": 1884633,
+      "bbox_xywh": [
+        66.56,
+        501.21,
+        137.65,
+        110.79
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000297084.jpg",
+      "flickr_url": "http://farm6.staticflickr.com/5510/10199431365_8ae1b637f4_z.jpg",
+      "license": "Attribution-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "file": "coco_val2017_000000297084.jpg"
+    },
+    {
+      "image_id": 300039,
+      "annotation_id": 682091,
+      "bbox_xywh": [
+        199.97,
+        0.0,
+        102.91,
+        131.44
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000300039.jpg",
+      "flickr_url": "http://farm3.staticflickr.com/2093/2187275722_e3747de55c_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000300039.jpg"
+    },
+    {
+      "image_id": 311303,
+      "annotation_id": 670367,
+      "bbox_xywh": [
+        353.28,
+        55.53,
+        269.03,
+        353.28
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000311303.jpg",
+      "flickr_url": "http://farm4.staticflickr.com/3372/3178812639_f6e31bec0b_z.jpg",
+      "license": "Attribution License",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "file": "coco_val2017_000000311303.jpg"
+    },
+    {
+      "image_id": 318114,
+      "annotation_id": 1881218,
+      "bbox_xywh": [
+        14.36,
+        8.46,
+        125.28,
+        197.09
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000318114.jpg",
+      "flickr_url": "http://farm9.staticflickr.com/8231/8594007784_8ce364d236_z.jpg",
+      "license": "Attribution-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "file": "coco_val2017_000000318114.jpg"
+    },
+    {
+      "image_id": 319617,
+      "annotation_id": 674731,
+      "bbox_xywh": [
+        0.0,
+        79.73,
+        107.03,
+        155.68
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000319617.jpg",
+      "flickr_url": "http://farm1.staticflickr.com/40/79665940_3a62f3e9f1_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000319617.jpg"
+    },
+    {
+      "image_id": 322429,
+      "annotation_id": 1515846,
+      "bbox_xywh": [
+        88.83,
+        509.14,
+        93.41,
+        89.32
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000322429.jpg",
+      "flickr_url": "http://farm5.staticflickr.com/4125/4980957415_da7a803b2f_z.jpg",
+      "license": "Attribution-NonCommercial License",
+      "license_url": "https://creativecommons.org/licenses/by-nc/2.0/",
+      "file": "coco_val2017_000000322429.jpg"
+    },
+    {
+      "image_id": 322574,
+      "annotation_id": 1879522,
+      "bbox_xywh": [
+        186.68,
+        16.52,
+        224.4,
+        113.66
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000322574.jpg",
+      "flickr_url": "http://farm2.staticflickr.com/1002/1193542181_2e40c0fdd3_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000322574.jpg"
+    },
+    {
+      "image_id": 324927,
+      "annotation_id": 684793,
+      "bbox_xywh": [
+        254.56,
+        236.86,
+        195.6,
+        113.62
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000324927.jpg",
+      "flickr_url": "http://farm5.staticflickr.com/4092/4841539637_6d00080098_z.jpg",
+      "license": "Attribution-NonCommercial License",
+      "license_url": "https://creativecommons.org/licenses/by-nc/2.0/",
+      "file": "coco_val2017_000000324927.jpg"
+    },
+    {
+      "image_id": 329455,
+      "annotation_id": 674950,
+      "bbox_xywh": [
+        55.47,
+        378.71,
+        111.21,
+        101.29
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000329455.jpg",
+      "flickr_url": "http://farm3.staticflickr.com/2611/3931127044_f3d797dd10_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000329455.jpg"
+    },
+    {
+      "image_id": 331569,
+      "annotation_id": 1879964,
+      "bbox_xywh": [
+        238.44,
+        19.08,
+        373.56,
+        546.82
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000331569.jpg",
+      "flickr_url": "http://farm8.staticflickr.com/7289/9244400919_c2d6e85418_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000331569.jpg"
+    },
+    {
+      "image_id": 336053,
+      "annotation_id": 1513790,
+      "bbox_xywh": [
+        395.87,
+        227.42,
+        104.62,
+        183.37
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000336053.jpg",
+      "flickr_url": "http://farm6.staticflickr.com/5329/9729233040_dcd61b5f8a_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000336053.jpg"
+    },
+    {
+      "image_id": 337498,
+      "annotation_id": 2213905,
+      "bbox_xywh": [
+        0.0,
+        0.0,
+        68.26,
+        200.15
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000337498.jpg",
+      "flickr_url": "http://farm5.staticflickr.com/4086/5006983019_5114d2d23e_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000337498.jpg"
+    },
+    {
+      "image_id": 344100,
+      "annotation_id": 1504862,
+      "bbox_xywh": [
+        86.83,
+        132.21,
+        82.25,
+        114.92
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000344100.jpg",
+      "flickr_url": "http://farm8.staticflickr.com/7022/6715900215_f5afb101db_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000344100.jpg"
+    },
+    {
+      "image_id": 345356,
+      "annotation_id": 681173,
+      "bbox_xywh": [
+        329.26,
+        382.97,
+        70.72,
+        97.03
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000345356.jpg",
+      "flickr_url": "http://farm1.staticflickr.com/58/195983274_6fb2676229_z.jpg",
+      "license": "Attribution License",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "file": "coco_val2017_000000345356.jpg"
+    },
+    {
+      "image_id": 346703,
+      "annotation_id": 2183585,
+      "bbox_xywh": [
+        93.09,
+        528.62,
+        88.1,
+        103.07
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000346703.jpg",
+      "flickr_url": "http://farm6.staticflickr.com/5169/5300486344_87f3faa59b_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000346703.jpg"
+    },
+    {
+      "image_id": 347335,
+      "annotation_id": 673302,
+      "bbox_xywh": [
+        0.0,
+        1.44,
+        141.14,
+        184.26
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000347335.jpg",
+      "flickr_url": "http://farm3.staticflickr.com/2813/8751013631_0001c7d99c_z.jpg",
+      "license": "Attribution License",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "file": "coco_val2017_000000347335.jpg"
+    },
+    {
+      "image_id": 356424,
+      "annotation_id": 668991,
+      "bbox_xywh": [
+        130.88,
+        460.22,
+        104.99,
+        168.27
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000356424.jpg",
+      "flickr_url": "http://farm9.staticflickr.com/8116/8607070980_b791deaeb4_z.jpg",
+      "license": "Attribution License",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "file": "coco_val2017_000000356424.jpg"
+    },
+    {
+      "image_id": 361238,
+      "annotation_id": 1507191,
+      "bbox_xywh": [
+        3.02,
+        299.04,
+        72.91,
+        93.45
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000361238.jpg",
+      "flickr_url": "http://farm5.staticflickr.com/4148/4840284784_212c1c61c3_z.jpg",
+      "license": "Attribution-NonCommercial License",
+      "license_url": "https://creativecommons.org/licenses/by-nc/2.0/",
+      "file": "coco_val2017_000000361238.jpg"
+    },
+    {
+      "image_id": 365385,
+      "annotation_id": 2215046,
+      "bbox_xywh": [
+        112.0,
+        222.85,
+        186.0,
+        204.15
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000365385.jpg",
+      "flickr_url": "http://farm6.staticflickr.com/5044/5244459701_e310f8ceec_z.jpg",
+      "license": "Attribution-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "file": "coco_val2017_000000365385.jpg"
+    },
+    {
+      "image_id": 371677,
+      "annotation_id": 1882569,
+      "bbox_xywh": [
+        305.93,
+        234.93,
+        110.7,
+        137.3
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000371677.jpg",
+      "flickr_url": "http://farm4.staticflickr.com/3596/3462811561_4af8a2ecff_z.jpg",
+      "license": "Attribution-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "file": "coco_val2017_000000371677.jpg"
+    },
+    {
+      "image_id": 376365,
+      "annotation_id": 1509052,
+      "bbox_xywh": [
+        64.04,
+        200.56,
+        106.18,
+        128.93
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000376365.jpg",
+      "flickr_url": "http://farm1.staticflickr.com/8/10466051_d3744afab2_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000376365.jpg"
+    },
+    {
+      "image_id": 377368,
+      "annotation_id": 1503780,
+      "bbox_xywh": [
+        577.38,
+        31.15,
+        62.37,
+        79.76
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000377368.jpg",
+      "flickr_url": "http://farm6.staticflickr.com/5293/5538913095_e3c5a908bc_z.jpg",
+      "license": "Attribution License",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "file": "coco_val2017_000000377368.jpg"
+    },
+    {
+      "image_id": 382125,
+      "annotation_id": 2098736,
+      "bbox_xywh": [
+        492.21,
+        411.57,
+        117.85,
+        68.43
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000382125.jpg",
+      "flickr_url": "http://farm6.staticflickr.com/5239/7053693277_0d21e419e0_z.jpg",
+      "license": "Attribution License",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "file": "coco_val2017_000000382125.jpg"
+    },
+    {
+      "image_id": 384651,
+      "annotation_id": 1505448,
+      "bbox_xywh": [
+        253.76,
+        280.05,
+        68.59,
+        106.8
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000384651.jpg",
+      "flickr_url": "http://farm6.staticflickr.com/5087/5349737041_c978a9b777_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000384651.jpg"
+    },
+    {
+      "image_id": 387098,
+      "annotation_id": 1878854,
+      "bbox_xywh": [
+        42.49,
+        208.46,
+        72.64,
+        70.01
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000387098.jpg",
+      "flickr_url": "http://farm4.staticflickr.com/3083/3138265194_b2d0f11ed0_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000387098.jpg"
+    },
+    {
+      "image_id": 414638,
+      "annotation_id": 672622,
+      "bbox_xywh": [
+        23.76,
+        0.15,
+        202.42,
+        191.07
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000414638.jpg",
+      "flickr_url": "http://farm8.staticflickr.com/7073/7406112038_e6e54b50eb_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000414638.jpg"
+    },
+    {
+      "image_id": 419312,
+      "annotation_id": 682227,
+      "bbox_xywh": [
+        0.0,
+        69.56,
+        92.84,
+        165.55
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000419312.jpg",
+      "flickr_url": "http://farm4.staticflickr.com/3276/3064530534_3b508c25c6_z.jpg",
+      "license": "Attribution License",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "file": "coco_val2017_000000419312.jpg"
+    },
+    {
+      "image_id": 419974,
+      "annotation_id": 1880254,
+      "bbox_xywh": [
+        295.38,
+        528.58,
+        74.81,
+        105.5
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000419974.jpg",
+      "flickr_url": "http://farm4.staticflickr.com/3647/3655327694_5e4324ea90_z.jpg",
+      "license": "Attribution-NonCommercial License",
+      "license_url": "https://creativecommons.org/licenses/by-nc/2.0/",
+      "file": "coco_val2017_000000419974.jpg"
+    },
+    {
+      "image_id": 441491,
+      "annotation_id": 671829,
+      "bbox_xywh": [
+        347.33,
+        396.94,
+        80.89,
+        76.59
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000441491.jpg",
+      "flickr_url": "http://farm6.staticflickr.com/5175/5559005188_b1e31e3f9b_z.jpg",
+      "license": "Attribution-NonCommercial License",
+      "license_url": "https://creativecommons.org/licenses/by-nc/2.0/",
+      "file": "coco_val2017_000000441491.jpg"
+    },
+    {
+      "image_id": 465806,
+      "annotation_id": 671068,
+      "bbox_xywh": [
+        184.45,
+        283.76,
+        97.08,
+        120.81
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000465806.jpg",
+      "flickr_url": "http://farm8.staticflickr.com/7301/8731226977_ef6395b6e4_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000465806.jpg"
+    },
+    {
+      "image_id": 470773,
+      "annotation_id": 2183257,
+      "bbox_xywh": [
+        89.77,
+        160.83,
+        72.31,
+        92.26
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000470773.jpg",
+      "flickr_url": "http://farm4.staticflickr.com/3746/9561784432_35a837bb19_z.jpg",
+      "license": "Attribution-NonCommercial License",
+      "license_url": "https://creativecommons.org/licenses/by-nc/2.0/",
+      "file": "coco_val2017_000000470773.jpg"
+    },
+    {
+      "image_id": 470924,
+      "annotation_id": 682445,
+      "bbox_xywh": [
+        333.87,
+        302.64,
+        88.44,
+        128.36
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000470924.jpg",
+      "flickr_url": "http://farm3.staticflickr.com/2442/3747222980_f0351f6978_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000470924.jpg"
+    },
+    {
+      "image_id": 479448,
+      "annotation_id": 1885989,
+      "bbox_xywh": [
+        391.52,
+        30.23,
+        108.48,
+        146.7
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000479448.jpg",
+      "flickr_url": "http://farm4.staticflickr.com/3527/3868813152_30b307ca2c_z.jpg",
+      "license": "Attribution-NonCommercial License",
+      "license_url": "https://creativecommons.org/licenses/by-nc/2.0/",
+      "file": "coco_val2017_000000479448.jpg"
+    },
+    {
+      "image_id": 492878,
+      "annotation_id": 1512961,
+      "bbox_xywh": [
+        24.43,
+        155.62,
+        135.22,
+        222.23
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000492878.jpg",
+      "flickr_url": "http://farm5.staticflickr.com/4074/4853968972_dfb8b372ed_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000492878.jpg"
+    },
+    {
+      "image_id": 496571,
+      "annotation_id": 1508804,
+      "bbox_xywh": [
+        290.91,
+        361.55,
+        68.86,
+        72.62
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000496571.jpg",
+      "flickr_url": "http://farm9.staticflickr.com/8244/8596658728_e7a850fc9a_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000496571.jpg"
+    },
+    {
+      "image_id": 499313,
+      "annotation_id": 2183286,
+      "bbox_xywh": [
+        397.09,
+        1.87,
+        104.56,
+        70.95
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000499313.jpg",
+      "flickr_url": "http://farm7.staticflickr.com/6174/6158664257_24f25ab9ab_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000499313.jpg"
+    },
+    {
+      "image_id": 502737,
+      "annotation_id": 1883743,
+      "bbox_xywh": [
+        16.62,
+        29.92,
+        182.86,
+        314.18
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000502737.jpg",
+      "flickr_url": "http://farm2.staticflickr.com/1370/1343129188_df1aebda3f_z.jpg",
+      "license": "Attribution License",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "file": "coco_val2017_000000502737.jpg"
+    },
+    {
+      "image_id": 520871,
+      "annotation_id": 670685,
+      "bbox_xywh": [
+        463.13,
+        12.52,
+        104.18,
+        122.05
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000520871.jpg",
+      "flickr_url": "http://farm3.staticflickr.com/2548/3711888643_b930d29ec8_z.jpg",
+      "license": "Attribution License",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "file": "coco_val2017_000000520871.jpg"
+    },
+    {
+      "image_id": 528399,
+      "annotation_id": 2100638,
+      "bbox_xywh": [
+        572.9,
+        98.64,
+        67.1,
+        203.97
+      ],
+      "source_url": "https://images.cocodataset.org/val2017/000000528399.jpg",
+      "flickr_url": "http://farm5.staticflickr.com/4029/4258573396_d22dc3cdec_z.jpg",
+      "license": "Attribution-NonCommercial-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "file": "coco_val2017_000000528399.jpg"
+    }
+  ]
+}
