@@ -1,0 +1,8 @@
+.DS_Store
+.venv/
+venv/
+__pycache__/
+*.pyc
+.mplconfig/
+assgnment 1 cv/
+artifacts/features.npz
